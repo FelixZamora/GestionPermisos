@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GestionPermisos</string>
+    <string name="tvTitulo">Gestion Permisos - Felix Ruiz</string>
+    <string name="tvCamera">Status Permission Camera</string>
+    <string name="tvSMS">Status Permission SMS</string>
+    <string name="tvCall">Status Permission Call</string>
+    <string name="tvMicrophone">Status Permission Microphone</string>
+    <string name="tvContactos">Status Permission Contacts</string>
+    <string name="tvInternet">Status Permission Internet</string>
+    <string name="tvDactilar">Status Permission Fingerprint</string>
+    <string name="tvBlanco"></string>
+
+    <string name="tvSeleccione">Select an option to enable:</string>
+    <!--Botones-->
+    <string name="btnCheckPermission">Check Permissions</string>
+    <string name="btnRequestCamera">Camera</string>
+    <string name="btnRequestInternet">Internet</string>
+    <string name="btnRequestFingerPint">FingerPrint</string>
+
+    <string name="btnRequestSMS">SMS</string>
+    <string name="btnRequestCall">Call</string>
+    <string name="btnRequestMicrophone">Microphone</string>
+    <string name="btnRequestContacts">Contacts</string>
+
+
+
+</resources>
