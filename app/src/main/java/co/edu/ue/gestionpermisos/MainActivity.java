@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView tvCamera;
     private TextView tvBiometric;
     private TextView tvInternet;
-    private TextView tvResponse;
     private TextView tvSMS;
     private TextView tvCall;
     private TextView tvMicrophone;
@@ -105,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        tvResponse.setText(" " + grantResults[0]);
         if(requestCode == REQUEST_CODE){ //Si respondio
             if (grantResults[0] != PackageManager.PERMISSION_GRANTED) {
                 new AlertDialog.Builder(this)
